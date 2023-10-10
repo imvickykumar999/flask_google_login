@@ -12,8 +12,9 @@ app = Flask("Google Login App")
 app.secret_key = "CodeSpecialist.com"
 
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
+# https://console.cloud.google.com/apis/credentials
 
-GOOGLE_CLIENT_ID = "33674737284-srfbp7srvi8ie2m0sr426fved0hjq2tp.apps.googleusercontent.com"
+GOOGLE_CLIENT_ID = "609499334653-8hsg5lprevkm7949e5ptv23pp5alkpdj.apps.googleusercontent.com.apps.googleusercontent.com"
 client_secrets_file = os.path.join(pathlib.Path(__file__).parent, "client_secret.json")
 
 flow = Flow.from_client_secrets_file(

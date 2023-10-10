@@ -4,6 +4,7 @@ chardet==4.0.0
 click==7.1.2
 Flask==1.1.2
 google-auth==1.27.0
+google-api-python-client
 google-auth-oauthlib==0.4.2
 idna==2.10
 itsdangerous==1.1.0
